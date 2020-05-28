@@ -12,15 +12,15 @@
 
 ##### 1.启动nginx 图像server
 
-![https://github.com/dsczs/Saas_FileUploadAndDownload/blob/master/img/1.png]()
+![image](https://github.com/dsczs/Saas_FileUploadAndDownload/blob/master/img/1.png)
 
 ##### 2.启动后台server
 
-![https://github.com/dsczs/Saas_FileUploadAndDownload/blob/master/img/2.png]()
+![image](https://github.com/dsczs/Saas_FileUploadAndDownload/blob/master/img/2.png)
 
 ##### 3.测试上传功能
 
-![https://github.com/dsczs/Saas_FileUploadAndDownload/blob/master/img/4.png]()
+![image](https://github.com/dsczs/Saas_FileUploadAndDownload/blob/master/img/4.png)
 
 ##### 4.校验
 

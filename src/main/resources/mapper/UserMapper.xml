@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.deepexi.ai.mapper.UserMapper">
+
+    <select id="findById" resultType="com.deepexi.ai.domain.eo.User">
+        SELECT
+            id,
+            name
+        FROM
+            `user`
+        WHERE
+            id = #{id}
+    </select>
+
+    <select id="insertBatch" parameterType="java.util.List">
+        INSERT INTO `user`
+        (
+        `name`
+        )
+        VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (
+            #{item.name}
+            )
+        </foreach>
+    </select>
+
+    <select id="findUserPage" resultType="com.deepexi.ai.domain.eo.User">
+        SELECT
+            id,
+            name
+        FROM
+            `user`
+    </select>
+
+</mapper>

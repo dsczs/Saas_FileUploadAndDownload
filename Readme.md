@@ -24,5 +24,5 @@
 
 ##### 4.校验
 
-![](https://github.com/dsczs/Saas_FileUploadAndDownload/blob/master/img/3.png)
+![image](https://github.com/dsczs/Saas_FileUploadAndDownload/blob/master/img/3.png)
 
